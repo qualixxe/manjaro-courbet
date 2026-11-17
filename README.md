@@ -45,9 +45,3 @@ CONFIG_USB_CONFIGFS_ECM=y
 
 Do not flash a DTB alone and expect touch to work: the controller driver must
 also be compiled into the kernel and the DTB must match the kernel build.
-
-## GitHub
-
-This is a local Git repository prepared for publishing. Push it to your own
-GitHub repository after reviewing the patches; no boot images or private tokens
-are included.
