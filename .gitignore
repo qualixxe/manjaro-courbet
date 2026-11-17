@@ -1,0 +1,13 @@
+*.img
+*.img.xz
+*.iso
+*.tar.gz
+*.tar.zst
+*.dtb
+*.itb
+*.bin
+build/
+out/
+modules_install/
+*.swp
+.DS_Store

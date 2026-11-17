@@ -1,0 +1,9 @@
+--- a/drivers/input/touchscreen/Kconfig
++++ b/drivers/input/touchscreen/Kconfig
+@@
+ if INPUT_TOUCHSCREEN
++source "drivers/input/touchscreen/focaltech_spi/Kconfig"
+--- a/drivers/input/touchscreen/Makefile
++++ b/drivers/input/touchscreen/Makefile
+@@
++obj-$(CONFIG_TOUCHSCREEN_FTS) += focaltech_spi/
